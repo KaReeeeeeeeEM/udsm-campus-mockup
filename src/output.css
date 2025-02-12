@@ -2103,6 +2103,12 @@
   .bg-neutral-200 {
     background-color: var(--color-neutral-200);
   }
+  .bg-neutral-700 {
+    background-color: var(--color-neutral-700);
+  }
+  .bg-neutral-800 {
+    background-color: var(--color-neutral-800);
+  }
   .bg-transparent {
     background-color: transparent;
   }
@@ -2402,8 +2408,14 @@
   .text-neutral-400 {
     color: var(--color-neutral-400);
   }
+  .text-neutral-500 {
+    color: var(--color-neutral-500);
+  }
   .text-neutral-600 {
     color: var(--color-neutral-600);
+  }
+  .text-neutral-700 {
+    color: var(--color-neutral-700);
   }
   .text-transparent {
     color: transparent;
@@ -3966,6 +3978,13 @@
         --tw-scale-y: 125%;
         --tw-scale-z: 125%;
         scale: var(--tw-scale-x) var(--tw-scale-y);
+      }
+    }
+  }
+  .hover\:text-blue-400 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-blue-400);
       }
     }
   }

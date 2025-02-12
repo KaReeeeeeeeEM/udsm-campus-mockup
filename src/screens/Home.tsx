@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 import { MdVerified } from "react-icons/md";
 import { Announcement } from "../components/demo/Announcement";
 import PopQuestion from "../components/demo/Radio";
+import { span } from "motion/react-client";
 
 export default function Home() {
   const [isLoggedIn] = useState(true);
@@ -26,8 +27,8 @@ export default function Home() {
         <div>
           <Input
             key="inside"
-            description=""
-            label="What's on your mind?"
+            description={<span className="text-xs text-neutral-500">14th Feb - 1st Mar </span>}
+            label={<span><span className="text-blue-400 underline font-bold">Up Next:</span> University Examinations begins!</span>}
             labelPlacement="inside"
             type="text"
           />
@@ -41,7 +42,7 @@ export default function Home() {
         Voting Poll
       </span>
 
-      <div>
+      <div className="bg-neutral-800 p-4 rounded-md">
         <PopQuestion />
       </div>
     </div>

@@ -1,6 +1,7 @@
 import { Tabs, Tab, Chip } from "@heroui/react";
 import { FaBell, FaHome, FaMap } from "react-icons/fa";
 import Home from "../screens/Home";
+import Map from "../screens/Map";
 
 type BottomNavProps = {
   className?: string;
@@ -21,8 +22,10 @@ export default function BottomNav({ ...props }: BottomNavProps) {
         variant="underlined"
         placement="bottom"
       >
+      
+      {/* home section */}
         <Tab
-          key="photos"
+          key="home"
           title={
             <div className="flex items-center space-x-2">
               <FaHome />
@@ -35,8 +38,10 @@ export default function BottomNav({ ...props }: BottomNavProps) {
         >
           <Home />
         </Tab>
+      
+      {/* notifications section */}
         <Tab
-          key="music"
+          key="notifications"
           title={
             <div className="flex items-center space-x-2">
               <FaBell />
@@ -49,6 +54,8 @@ export default function BottomNav({ ...props }: BottomNavProps) {
         >
           Notification
         </Tab>
+
+        {/* map section */}
         <Tab
           key="map"
           title={
@@ -58,7 +65,7 @@ export default function BottomNav({ ...props }: BottomNavProps) {
             </div>
           }
         >
-          Map
+          <Map />
         </Tab>
       </Tabs>
     </div>
