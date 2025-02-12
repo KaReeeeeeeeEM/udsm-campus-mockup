@@ -59,7 +59,7 @@ const RoutingMachine: React.FC = () => {
 // Main Map Component
 export default function Map() {
   return (
-    <div className="h-[80vh] w-full mx-auto bg-black text-white">
+    <div className="h-[80vh] w-full bg-black text-white">
       <MapContainer
         center={positionUDSM}
         zoom={16}

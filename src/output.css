@@ -1268,6 +1268,9 @@
   .w-\[\%\] {
     width: %;
   }
+  .w-\[1\] {
+    width: 1;
+  }
   .w-\[30vmin\] {
     width: 30vmin;
   }
@@ -1289,6 +1292,9 @@
   .w-\[70vmin\] {
     width: 70vmin;
   }
+  .w-\[80\%\] {
+    width: 80%;
+  }
   .w-\[80vw\] {
     width: 80vw;
   }
@@ -1306,12 +1312,6 @@
   }
   .w-\[150px\] {
     width: 150px;
-  }
-  .w-\[1\] {
-    width: 1;
-  }
-  .w-\[80\%\] {
-    width: 80%;
   }
   .w-\[200px\] {
     width: 200px;
@@ -2124,6 +2124,9 @@
   .bg-neutral-200 {
     background-color: var(--color-neutral-200);
   }
+  .bg-neutral-400 {
+    background-color: var(--color-neutral-400);
+  }
   .bg-neutral-700 {
     background-color: var(--color-neutral-700);
   }
@@ -2346,14 +2349,14 @@
     font-size: var(--text-xs);
     line-height: var(--tw-leading, var(--text-xs--line-height));
   }
-  .text-\[0\.6rem\] {
-    font-size: 0.6rem;
-  }
   .text-\[0\.55rem\] {
     font-size: 0.55rem;
   }
   .text-\[0\.5rem\] {
     font-size: 0.5rem;
+  }
+  .text-\[0\.6rem\] {
+    font-size: 0.6rem;
   }
   .text-\[100\%\] {
     font-size: 100%;
@@ -4013,6 +4016,13 @@
       }
     }
   }
+  .hover\:bg-neutral-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-neutral-700);
+      }
+    }
+  }
   .hover\:text-blue-400 {
     &:hover {
       @media (hover: hover) {
@@ -5120,6 +5130,11 @@
   .md\:grid-cols-2 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-4 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
   .md\:text-2xl {
