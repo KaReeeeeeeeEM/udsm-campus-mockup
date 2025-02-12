@@ -1,7 +1,7 @@
 import { FaHouse } from "react-icons/fa6";
 import { cn } from "../../lib/utils";
 import { CardProps } from "../../types";
-import { FaUser, FaUsers } from "react-icons/fa";
+import { FaUser } from "react-icons/fa";
 
 export function Posts({ ...props }: CardProps) {
   return (

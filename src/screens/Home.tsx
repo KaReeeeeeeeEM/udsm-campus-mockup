@@ -1,4 +1,4 @@
-import { FaHornbill } from "react-icons/fa";
+import { FaHornbill, FaPoll } from "react-icons/fa";
 import { CarouselDemo } from "../components/demo/Carousel";
 import Profile from "../components/demo/Avatar";
 import { Input } from "@heroui/react";
@@ -7,9 +7,10 @@ import { Posts } from "../components/demo/Post";
 import { useEffect, useState } from "react";
 import { MdVerified } from "react-icons/md";
 import { Announcement } from "../components/demo/Announcement";
+import PopQuestion from "../components/demo/Radio";
 
 export default function Home() {
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn] = useState(true);
 
   useEffect(() => {
     if (!isLoggedIn) {
@@ -32,6 +33,19 @@ export default function Home() {
           />
         </div>
       </div>
+
+       {/* Voting Poll */}
+    <div className="my-4">
+      <span className="flex items-center text-neutral-400 gap-2 mb-2 mt-6">
+        <FaPoll className="text-blue-400" />
+        Voting Poll
+      </span>
+
+      <div>
+        <PopQuestion />
+      </div>
+    </div>
+
 
       {/* stories */}
       <div>

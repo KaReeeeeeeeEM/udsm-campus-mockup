@@ -2049,6 +2049,9 @@
   .border-transparent {
     border-color: transparent;
   }
+  .border-white {
+    border-color: var(--color-white);
+  }
   .border-x-transparent {
     border-inline-color: transparent;
   }
