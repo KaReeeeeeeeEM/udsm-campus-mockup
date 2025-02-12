@@ -2,6 +2,7 @@ import { Tabs, Tab, Chip } from "@heroui/react";
 import { FaBell, FaHome, FaMap } from "react-icons/fa";
 import Home from "../screens/Home";
 import Map from "../screens/Map";
+import Notifications from "../screens/Notifications";
 
 type BottomNavProps = {
   className?: string;
@@ -52,7 +53,7 @@ export default function BottomNav({ ...props }: BottomNavProps) {
             </div>
           }
         >
-          Notification
+          <Notifications />
         </Tab>
 
         {/* map section */}

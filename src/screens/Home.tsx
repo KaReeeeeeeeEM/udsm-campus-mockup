@@ -8,7 +8,6 @@ import { useEffect, useState } from "react";
 import { MdVerified } from "react-icons/md";
 import { Announcement } from "../components/demo/Announcement";
 import PopQuestion from "../components/demo/Radio";
-import { span } from "motion/react-client";
 
 export default function Home() {
   const [isLoggedIn] = useState(true);
@@ -32,6 +31,18 @@ export default function Home() {
             labelPlacement="inside"
             type="text"
           />
+        </div>
+      </div>
+
+
+      {/* posts */}
+      <div className="my-4">
+        <span className="flex items-center mt-4 gap-2 font-semibold"><MdVerified className="text-blue-400" /> Announcements</span>
+
+        <div className="w-full flex items-center gap-4 mt-4 overflow-x-auto">
+          {announcements.map((announcement, index) => (
+            <Posts key={index} {...announcement} />
+          ))}
         </div>
       </div>
 
@@ -64,17 +75,6 @@ export default function Home() {
         {posts.map((post, index) => (
           <Announcement key={index} {...post} />
         ))}
-      </div>
-
-      {/* posts */}
-      <div>
-        <span className="flex items-center mt-4 gap-2 font-semibold"><MdVerified className="text-blue-400" /> Announcements</span>
-
-        <div className="w-full flex items-center gap-4 mt-4 overflow-x-auto">
-          {announcements.map((announcement, index) => (
-            <Posts key={index} {...announcement} />
-          ))}
-        </div>
       </div>
     </div>
   );
