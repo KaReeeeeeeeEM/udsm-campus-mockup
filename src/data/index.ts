@@ -132,3 +132,78 @@ export const suggestions: SuggestionProps[] = [
     following: "5",
   },
 ];
+
+export const alumniData = [
+  {
+    username: "john_makinde",
+    title: "Dr. John Makinde",
+    description:
+      "A renowned AI researcher and data scientist. Graduated from UDSM with a BSc in Computer Science. Now working at Google AI.",
+    avatarSrc: "https://randomuser.me/api/portraits/men/1.jpg",
+    followers: "120K",
+    following: "250",
+  },
+  {
+    username: "amina_kassim",
+    title: "Amina Kassim",
+    description:
+      "An environmental activist and researcher. Holds a degree in Environmental Science from UDSM. Leading tree-planting initiatives across Africa.",
+    avatarSrc: "https://randomuser.me/api/portraits/women/2.jpg",
+    followers: "95K",
+    following: "300",
+  },
+  {
+    username: "michael_ndulu",
+    title: "Prof. Michael Ndulu",
+    description:
+      "Economist and former World Bank consultant. Studied Economics at UDSM and has advised governments on economic reforms.",
+    avatarSrc: "https://randomuser.me/api/portraits/men/3.jpg",
+    followers: "210K",
+    following: "180",
+  },
+  {
+    username: "zahara_mwinyi",
+    title: "Zahara Mwinyi",
+    description:
+      "Award-winning journalist and media personality. Holds a BA in Journalism from UDSM and now anchors news at BBC Africa.",
+    avatarSrc: "https://randomuser.me/api/portraits/women/4.jpg",
+    followers: "150K",
+    following: "400",
+  },
+  {
+    username: "joseph_munishi",
+    title: "Eng. Joseph Munishi",
+    description:
+      "Senior Civil Engineer at African Development Bank. Studied Civil Engineering at UDSM and leads major infrastructure projects.",
+    avatarSrc: "https://randomuser.me/api/portraits/men/5.jpg",
+    followers: "180K",
+    following: "320",
+  },
+  {
+    username: "fatma_omar",
+    title: "Dr. Fatma Omar",
+    description:
+      "Renowned medical doctor and researcher. Holds an MBBS degree from UDSM and is working on advanced cancer treatments.",
+    avatarSrc: "https://randomuser.me/api/portraits/women/6.jpg",
+    followers: "220K",
+    following: "500",
+  },
+  {
+    username: "patrick_lugano",
+    title: "Patrick Lugano",
+    description:
+      "Software engineer at Microsoft. Studied Information Technology at UDSM and specializes in cloud computing.",
+    avatarSrc: "https://randomuser.me/api/portraits/men/7.jpg",
+    followers: "95K",
+    following: "280",
+  },
+  {
+    username: "sophia_njau",
+    title: "Sophia Njau",
+    description:
+      "Founder of a leading fashion brand in East Africa. Holds a degree in Business Administration from UDSM.",
+    avatarSrc: "https://randomuser.me/api/portraits/women/8.jpg",
+    followers: "300K",
+    following: "120",
+  },
+];
