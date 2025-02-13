@@ -11,6 +11,7 @@ import PopQuestion from "../components/demo/Radio";
 import Tabs from "../components/demo/Tabs";
 import AlumniCard from "../components/demo/AlumniCard";
 import { BsLightning } from "react-icons/bs";
+import QuickQuestion from "../components/demo/QuickQn";
 
 export default function Home() {
   const [isLoggedIn] = useState(true);
@@ -56,6 +57,16 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="mt-4 mb-8 bg-neutral-700 rounded-lg p-4">
+        <span className="flex items-center text-neutral-400 gap-2 mb-2">
+          <FaPoll className="text-blue-400" />
+          Poll
+        </span>
+        <div>
+          <QuickQuestion />
+        </div>
+      </div>
+
       {/* posts */}
       <div className="my-4">
         <span className="flex items-center mt-4 gap-2 font-semibold">
@@ -76,7 +87,7 @@ export default function Home() {
       <div className="my-4">
         <span className="flex items-center text-neutral-400 gap-2 mb-2 mt-6">
           <FaPoll className="text-blue-400" />
-          Voting Poll
+          Poll
         </span>
 
         <div className="bg-neutral-800 p-4 rounded-md">
