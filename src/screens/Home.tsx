@@ -45,7 +45,7 @@ export default function Home() {
       <div className="my-4">
         <span className="flex items-center mt-4 gap-2 font-semibold"><MdVerified className="text-blue-400" /> Announcements</span>
 
-        <div className="w-full flex items-center gap-4 mt-4 overflow-x-auto">
+        <div id="events" className="w-full flex items-center gap-4 mt-4 overflow-x-auto">
           {announcements.map((announcement, index) => (
             <Posts key={index} {...announcement} />
           ))}
@@ -77,7 +77,7 @@ export default function Home() {
       </div>
 
       {/* announcements */}
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+      <div id="news" className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
         {posts.map((post, index) => (
           <Announcement key={index} {...post} />
         ))}

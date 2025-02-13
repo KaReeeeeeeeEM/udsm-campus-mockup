@@ -6,25 +6,25 @@ export default function Tabs() {
   return (
     <div className="w-full overflow-x-auto flex items-center gap-4 mt-2 mb-4">
       <a 
-        href="#"
+        href="#events"
         className="rounded-lg shrink-0 text-white px-4 py-2 bg-neutral-700 flex items-center gap-2 hover:bg-blue-400 transition-all ease-in-out duration-500"
       >
         {" "}
         <MdEvent /> Events
       </a >
       <a 
-        href="#"
+        href="#news"
         className="rounded-lg shrink-0 text-white px-4 py-2 bg-neutral-700 flex items-center gap-2 hover:bg-blue-400 transition-all ease-in-out duration-500"
       >
         {" "}
         <MdNewReleases /> News
       </a >
       <a 
-        href="#"
+        href="#alumni"
         className="rounded-lg shrink-0 text-white px-4 py-2 bg-neutral-700 flex items-center gap-2 hover:bg-blue-400 transition-all ease-in-out duration-500"
       >
         {" "}
-        <FaGraduationCap /> Alumni Portal
+        <FaGraduationCap /> Alumni
       </a >
       <a 
         href="#"
