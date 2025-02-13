@@ -135,6 +135,10 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+
+      {/* Emergency Contacts */}
+      
     </div>
   );
 }

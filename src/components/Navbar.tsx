@@ -77,13 +77,13 @@ export default function NavBar() {
 
       <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
-          <Link href="#">Logout</Link>
+          <Link href="/">Logout</Link>
         </NavbarItem>
         <NavbarItem>
           <Button
             as={Link}
             color="warning"
-            href="#"
+            href="/"
             variant="flat"
             className="bg-blue-400 rounded-full text-white"
           >
