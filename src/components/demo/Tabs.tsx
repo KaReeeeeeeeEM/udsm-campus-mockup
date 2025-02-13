@@ -27,7 +27,7 @@ export default function Tabs() {
         <FaGraduationCap /> Alumni
       </a >
       <a 
-        href="#"
+        href="#emergency"
         className="rounded-lg shrink-0 text-white px-4 py-2 bg-neutral-700 flex items-center gap-2 hover:bg-blue-400 transition-all ease-in-out duration-500"
       >
         {" "}

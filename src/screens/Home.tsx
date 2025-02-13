@@ -2,7 +2,7 @@ import { FaGraduationCap, FaHornbill, FaPoll } from "react-icons/fa";
 import { CarouselDemo } from "../components/demo/Carousel";
 import Profile from "../components/demo/Avatar";
 import { Input } from "@heroui/react";
-import { posts, announcements, alumniData } from "../data";
+import { posts, announcements, alumniData, contactData } from "../data";
 import { Posts } from "../components/demo/Post";
 import { useEffect, useState } from "react";
 import { MdLink, MdVerified } from "react-icons/md";
@@ -12,6 +12,8 @@ import Tabs from "../components/demo/Tabs";
 import AlumniCard from "../components/demo/AlumniCard";
 import { BsLightning } from "react-icons/bs";
 import QuickQuestion from "../components/demo/QuickQn";
+import ContactCard from "../components/demo/ContactCard";
+import { GrEmergency } from "react-icons/gr";
 
 export default function Home() {
   const [isLoggedIn] = useState(true);
@@ -136,9 +138,18 @@ export default function Home() {
         </div>
       </div>
 
-
       {/* Emergency Contacts */}
-      
+      <div id="emergency" className="mt-12">
+        <span className="flex items-center gap-2">
+          {" "}
+          <GrEmergency className="text-blue-400" /> For Emergency Support
+        </span>
+        <div className="mt-4 mb-8 flex items-center overflow-x-auto gap-4">
+          {contactData.map((contact, index) => (
+            <ContactCard key={index} {...contact} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }

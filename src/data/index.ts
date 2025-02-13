@@ -207,3 +207,47 @@ export const alumniData = [
     following: "120",
   },
 ];
+
+export const contactData = [
+  {
+    campus: "UDSM Main Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM Mlimani Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM CoICT Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM DUCE Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM MUCE Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM Mkwawa Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM MBEYA Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM IUCEA Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM UDOM Campus",
+    contact: "+255 22 241 0751",
+  },
+  {
+    campus: "UDSM UDSM Campus",
+    contact: "+255 22 241 0751",
+  },
+ 
+]

@@ -14,3 +14,8 @@ export type SuggestionProps = {
   followers: string;
   following: string;
 };
+
+export type ContactProps = {
+  campus: string;
+  contact: string;
+}
