@@ -32,6 +32,17 @@ export default function Login() {
         <Button onPress={handleLogin} className="w-full bg-blue-400 text-white rounded-lg px-4 py-2 mt-4">
           {loading ? <CircularProgress aria-label="Loading..." /> : "Login"}
         </Button>
+        <span className="text-sm text-neutral-500 mt-4">
+          Forgot Password? <a href="#" className="text-blue-400">
+            Click here
+          </a>
+        </span>
+        <span className="text-xl my-4">OR</span>
+        <Button className="text-sm text-neutral-400 bg-neutral-700 w-full rounded-lg mt-4">
+         Continue as a <a href="#" className="text-blue-400">
+            Guest
+          </a>
+        </Button>
       </div>
     </div>
   );
