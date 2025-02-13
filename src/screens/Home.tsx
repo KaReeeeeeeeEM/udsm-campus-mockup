@@ -25,9 +25,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="h-[82vh] overflow-y-auto max-w-xs md:max-w-lg mx-auto bg-black text-white px-6">
+    <div className="h-[82vh] overflow-y-auto max-w-xs md:max-w-lg mx-auto bg-black text-white px-2">
       <div>
-        <span className="flex items-center gap-2 font-semibold mt-4">
+        <span className="flex items-center gap-2 py-6 font-semibold mt-4">
           {" "}
           <MdLink className="text-blue-400" /> Quick Links
         </span>
