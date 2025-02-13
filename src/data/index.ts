@@ -53,7 +53,7 @@ export const posts: CardProps[] = [
 
 export const announcements: CardProps[] = [
   {
-    profileName: "John Doe",
+    profileName: "CoICT Official",
     timeAgo: "2 hours ago",
     title: "AI Research at CoICT",
     description:
@@ -61,7 +61,7 @@ export const announcements: CardProps[] = [
     college: "CoICT",
   },
   {
-    profileName: "Jane Smith",
+    profileName: "UDBS Official",
     timeAgo: "5 hours ago",
     title: "New Business Strategies",
     description:
@@ -69,7 +69,7 @@ export const announcements: CardProps[] = [
     college: "UDBS",
   },
   {
-    profileName: "Michael Johnson",
+    profileName: "CoAF Official",
     timeAgo: "1 day ago",
     title: "Agricultural Innovations",
     description:
@@ -77,7 +77,7 @@ export const announcements: CardProps[] = [
     college: "CoAF",
   },
   {
-    profileName: "Sarah Wilson",
+    profileName: "CoNAS Official",
     timeAgo: "3 hours ago",
     title: "Latest Advances in Biology",
     description:
@@ -85,7 +85,7 @@ export const announcements: CardProps[] = [
     college: "CoNAS",
   },
   {
-    profileName: "Emily Davis",
+    profileName: "CoHU Official",
     timeAgo: "6 hours ago",
     title: "Historical Analysis of Tanzanian Culture",
     description:

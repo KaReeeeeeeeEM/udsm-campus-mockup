@@ -40,21 +40,25 @@ export default function Notifications() {
         </span>
       </div>
 
+      <div>
+        
+      </div>
+
       {/* channels suggestions */}
       <div className="flex items-center gap-2 mt-8 ">
         <MdTv className="text-blue-400" />
         <span className="text-neutral-400 text-sm">Channel Suggestions</span>
       </div>
       <div className="mt-4 w-full grid grid-cols-1 md:grid-cols-4 gap-4">
-        {suggestions.map((notification, index) => (
+        {suggestions.map((suggestion, index) => (
           <Notification
             key={index}
-            username={notification.username}
-            title={notification.title}
-            description={notification.description}
-            avatarSrc={notification.avatarSrc}
-            followers={notification.followers}
-            following={notification.following}
+            username={suggestion.username}
+            title={suggestion.title}
+            description={suggestion.description}
+            avatarSrc={suggestion.avatarSrc}
+            followers={suggestion.followers}
+            following={suggestion.following}
           />
         ))}
       </div>

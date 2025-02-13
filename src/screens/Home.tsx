@@ -5,9 +5,10 @@ import { Input } from "@heroui/react";
 import { posts, announcements } from "../data";
 import { Posts } from "../components/demo/Post";
 import { useEffect, useState } from "react";
-import { MdVerified } from "react-icons/md";
+import { MdLink, MdVerified } from "react-icons/md";
 import { Announcement } from "../components/demo/Announcement";
 import PopQuestion from "../components/demo/Radio";
+import Tabs from "../components/demo/Tabs";
 
 export default function Home() {
   const [isLoggedIn] = useState(true);
@@ -20,6 +21,11 @@ export default function Home() {
 
   return (
     <div className="h-[82vh] overflow-y-auto max-w-xs md:max-w-lg mx-auto bg-black text-white">
+      <div>
+        <span className="flex items-center gap-2 font-semibold mt-4"> <MdLink className="text-blue-400" />  Quick Links</span>
+        <Tabs />
+      </div>
+
       {/* feelings input */}
       <div className="mt-8 mb-4 flex items-center gap-2">
         <Profile />
