@@ -8,7 +8,7 @@ import { BiCheckCircle } from "react-icons/bi";
 
 export default function Notifications() {
   return (
-    <div className="h-[82vh] overflow-y-auto w-full md:max-w-lg mx-auto bg-black text-white px-2">
+    <div className="h-[82vh] overflow-y-auto w-full md:max-w-lg mx-auto bg-black text-white">
       {/* feelings input */}
       <div className="mt-16 mb-4 flex items-center gap-2">
         <Profile />

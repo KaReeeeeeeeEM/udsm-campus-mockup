@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="h-[82vh] overflow-y-auto max-w-xs md:max-w-lg mx-auto bg-black text-white px-2">
+    <div className="h-[82vh] overflow-y-auto max-w-xs md:max-w-lg mx-auto bg-black text-white">
       <div>
         <span className="flex items-center gap-2 py-6 font-semibold mt-4">
           {" "}
