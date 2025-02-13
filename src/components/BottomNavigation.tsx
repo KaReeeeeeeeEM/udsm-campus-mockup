@@ -17,7 +17,7 @@ export default function BottomNav({ ...props }: BottomNavProps) {
           tabList: "gap-8 w-full max-w-sm mx-auto relative rounded-none p-0",
           cursor: "w-full bg-[#42A5F5] absolute top-0",
           tab: "max-w-cover px-0 h-12",
-          tabContent: "group-data-[selected=true]:text-[#42A5F5]",
+          tabContent: "gap-2 group-data-[selected=true]:text-[#42A5F5]",
         }}
         color="primary"
         variant="underlined"
