@@ -1,6 +1,5 @@
 import { FaGraduationCap, FaPhoneAlt } from "react-icons/fa";
 import { MdEvent, MdNewReleases } from "react-icons/md";
-import { Link } from "react-router";
 
 export default function Tabs() {
   return (

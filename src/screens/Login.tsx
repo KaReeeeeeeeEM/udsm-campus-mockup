@@ -1,5 +1,5 @@
 import { Button, CircularProgress, Input } from "@heroui/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Login() {
   const [loading, setLoading] = useState(false);

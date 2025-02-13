@@ -4,7 +4,7 @@ import { MdNotifications, MdTv } from "react-icons/md";
 import Notification from "../components/demo/Notification";
 import { suggestions } from "../data";
 import { CgUserAdd } from "react-icons/cg";
-import { BiCheck, BiCheckCircle } from "react-icons/bi";
+import { BiCheckCircle } from "react-icons/bi";
 
 export default function Notifications() {
   return (
