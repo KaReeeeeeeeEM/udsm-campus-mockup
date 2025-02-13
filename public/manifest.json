@@ -1,0 +1,25 @@
+{
+    "short_name": "UDSM Campus App",
+    "name": "UDSM Campus Mobile App| Get your alerts fast and genuinely.",
+    "icons": [
+      {
+        "src": "/logo-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/logo-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "id": "/?source=pwa",
+    "start_url": "/?source=pwa",
+    "background_color": "#42A5F5",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#42A5F5",
+    "shortcuts": [],
+    "description": "TigoPesa App UI for visual impaired individuals",
+    "screenshots": []
+  }
